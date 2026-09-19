@@ -1,0 +1,29 @@
+# Notebook state
+.ipynb_checkpoints/
+__pycache__/
+
+# Raw and derived EEG data
+*.npy
+*.npz
+*.zip
+*.edf
+*.mat
+
+# Trained models and checkpoints
+*.keras
+*.h5
+*.weights.h5
+saved_model.pb
+keras_metadata.pb
+variables/
+checkpoints/
+
+# Editable project documents and local artifacts
+*.doc
+*.docx
+*.ppt
+*.pptx
+~$*
+.DS_Store
+Thumbs.db
+
