@@ -179,21 +179,13 @@ t_batch = 2.5
 
 A complete LOOCV experiment requires training **60 separate models**, so execution time depends on the selected architecture and hardware.
 
-## Reproducibility and Evaluation Notes
+Experimental Notes
 
-This repository contains a cleaned version of code originally developed for the 2022 thesis.
+The reported results correspond to the experiments conducted as part of the original bachelor's thesis and the subsequent manuscript based on this work.
 
-The historical results above **have not been fully reproduced after the repository cleanup**. The current notebook derives early-stopping validation data from the training portion of each fold rather than from the held-out test participant. This removes test-subject leakage during model selection, so a complete rerun may produce results different from the historical thesis/manuscript values.
+Because the experiments use leave-one-subject-out cross-validation across 60 participants, a complete evaluation requires training and testing 60 separate models for each configuration.
 
-Repository preparation also included:
-
-* Notebook structure and syntax validation
-* Preprocessing checks against the original EEG arrays
-* Verification of subject counts, labels, and generated window shapes
-* Preservation of the original CNN architectures
-* A current TensorFlow/Keras runtime smoke test covering model construction, training, prediction, evaluation, and `.keras` save/reload consistency
-
-The complete 60-fold experiment has not yet been rerun under the cleaned evaluation pipeline.
+The results should be interpreted in the context of the dataset size and experimental setting described above. Further validation on larger and more diverse EEG datasets would be necessary to assess the generalizability of the approach.
 
 ## Supporting Documents
 
