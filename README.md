@@ -179,7 +179,7 @@ t_batch = 2.5
 
 A complete LOOCV experiment requires training **60 separate models**, so execution time depends on the selected architecture and hardware.
 
-Experimental Notes
+## Experimental Notes
 
 The reported results correspond to the experiments conducted as part of the original bachelor's thesis and the subsequent manuscript based on this work.
 
