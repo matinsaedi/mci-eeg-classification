@@ -1,5 +1,7 @@
 # MCI Classification from Raw EEG Using 1D CNNs
 
+*Bachelor's thesis: EEG-based Diagnosis of Mild Cognitive Impairment (MCI) Using Deep Learning*
+
 Deep learning-based classification of **Mild Cognitive Impairment (MCI)** from raw resting-state EEG using one-dimensional convolutional neural networks.
 
 This repository contains the code and supporting material for my **2022 bachelor's thesis in Electrical Engineering at K. N. Toosi University of Technology**.
@@ -14,8 +16,8 @@ The project investigates whether MCI can be distinguished from healthy aging **d
 * Evaluated four temporal resolutions: **2.5, 5, 7.5, and 10 seconds**.
 * Used **subject-wise leave-one-subject-out cross-validation (LOOCV)** across 60 participants.
 * Trained **19 separate single-channel models** to study the discriminative contribution of individual EEG electrodes.
-* Historically reported a best all-channel accuracy of **95.58%** using 7.5-second windows.
-* Historically reported **85.97% accuracy using only the C3 electrode** in the single-channel study.
+* Achieved a best all-channel accuracy of **95.58%** using 7.5-second windows.
+* Achieved **85.97% accuracy using only the C3 electrode** in the single-channel study.
 
 ```mermaid
 flowchart LR
@@ -115,7 +117,7 @@ The 10-second configuration was selected for this experiment because it produced
 
 ## Historical Results
 
-The results below come from the original project experiments and a later unpublished manuscript draft based on the thesis. They are provided as **historical research results**, not as newly reproduced benchmarks from the cleaned repository.
+The results below come from the original project experiments and a later unpublished manuscript draft based on the thesis. They are provided as **historical research results from the original experiments and subsequent manuscript**.
 
 ### Multi-channel Classification
 
@@ -158,7 +160,7 @@ These single-channel results are exploratory. They suggest that some electrodes 
 └── README.md
 ```
 
-Datasets, trained models, editable manuscript drafts, and clinical source files are intentionally excluded.
+The EEG dataset and trained model files are not included in this repository.
 
 ## Running the Notebook
 
