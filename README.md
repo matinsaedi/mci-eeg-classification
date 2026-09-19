@@ -1,7 +1,5 @@
 # MCI Classification from Raw EEG Using 1D CNNs
 
-*Bachelor's thesis: EEG-based Diagnosis of Mild Cognitive Impairment (MCI) Using Deep Learning*
-
 Deep learning-based classification of **Mild Cognitive Impairment (MCI)** from raw resting-state EEG using one-dimensional convolutional neural networks.
 
 This repository contains the code and supporting material for my **2022 bachelor's thesis in Electrical Engineering at K. N. Toosi University of Technology**.
